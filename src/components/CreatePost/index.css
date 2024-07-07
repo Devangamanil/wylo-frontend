@@ -1,0 +1,27 @@
+form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+@media (max-width:576px){
+    form{
+        height: 200px;
+        gap: 10px;
+    }
+    form textarea{
+        width: 50pxpx;
+    }
+}
+
+form textarea{
+    height: 100px;
+    width: 100%;
+}
+
+.error-msg{
+    color: darkred;
+}
